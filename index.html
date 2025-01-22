@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1>Disaster Management</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#updates">Live Updates</a></li>
+                    <li><a href="#map">Interactive Map</a></li>
+                    <li><a href="#guide">Preparedness Guide</a></li>
+                    <li><a href="#contact">Emergency Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Be Prepared, Stay Safe</h2>
+                <p>Your one-stop solution for disaster awareness and preparedness.</p>
+            </div>
+        </section>
+
+        <section id="updates" class="live-updates">
+            <div class="container">
+                <h2>Live Updates</h2>
+                <div id="news"></div>
+            </div>
+        </section>
+
+        <section id="map" class="interactive-map">
+            <div class="container">
+                <h2>Interactive Map</h2>
+                <div id="map">
+                    <span class="VuuXrf">ODISHA GEOPORTAL</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="guide" class="preparedness-guide">
+            <div class="container">
+                <h2>Preparedness Guide</h2>
+                <ul>
+                    <li>Earthquake Safety</li>
+                    <li>Flood Preparedness</li>
+                    <li>Fire Safety Tips</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="emergency-contacts">
+            <div class="container">
+                <h2>Emergency Contacts</h2>
+                <form id="contact-form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="contact">Emergency Contact</label>
+                    <input type="tel" id="contact" name="contact" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- <footer>
+        <div class="container">
+            <p>2025 Disaster Management.</p>
+        </div>
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
